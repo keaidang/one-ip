@@ -19,11 +19,13 @@ A toolbox for IP lookups, network diagnostics, browser checks and AI service sta
 
 [中文](README.md) · **English**
 
-[Live demo](https://ip.huzhihui.com/) · [GitHub](https://github.com/zhihui-hu/one-ip)
+[Live demo](https://ip.huzhihui.com/) · [GitHub](https://github.com/keaidang/one-ip)
+
+> This repository is a modified version of [zhihui-hu/one-ip](https://github.com/zhihui-hu/one-ip) (AGPL-3.0). The original project and author info are preserved here.
 
 Click the button below for one-click deployment to Cloudflare.
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fzhihui-hu%2Fone-ip)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fkeaidang%2Fone-ip)
 
 ## Terminal and API
 
@@ -47,7 +49,7 @@ Returns `ip`, `checked_at`, `score`, `status`, location, ISP, ASN and `flags` (r
 
 ## Deploy to Cloudflare
 
-1. [Fork this project](https://github.com/zhihui-hu/one-ip/fork) into your GitHub account.
+1. [Fork this project](https://github.com/keaidang/one-ip/fork) into your GitHub account.
 2. Open the [Cloudflare dashboard](https://dash.cloudflare.com/), go to **Workers & Pages**, create a Worker and choose to import a Git repository.
 3. Connect GitHub, select your `one-ip` fork and set the production branch to `main`.
 4. Set the build command to `pnpm build` and the deploy command to `pnpm deploy`. Use Node.js 24 and pnpm 10.32.1. Keep the default root directory.
@@ -106,7 +108,7 @@ One IP offers a closed-source commercial edition and related services for organi
 - Custom development, integrations and API access
 - Technical consulting, deployment and ongoing support
 
-To discuss the commercial edition, private deployment or a custom solution, email [ip@huzhihui.com](mailto:ip@huzhihui.com) with your use case, deployment model and expected scale. See the [GitHub repository](https://github.com/zhihui-hu/one-ip) for project details. The final service scope, data permissions and delivery terms are subject to agreement.
+To discuss the commercial edition, private deployment or a custom solution, email [k@9o.pw](mailto:k@9o.pw) with your use case, deployment model and expected scale. See the [GitHub repository](https://github.com/keaidang/one-ip) for project details. The final service scope, data permissions and delivery terms are subject to agreement.
 
 ## Update your fork
 

@@ -178,7 +178,7 @@ export function AppLayout() {
           ·{" "}
           <UnderlineHover asChild>
             <a
-              href="https://github.com/zhihui-hu/one-ip"
+              href="https://github.com/keaidang/one-ip"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 align-middle"
@@ -188,7 +188,7 @@ export function AppLayout() {
           </UnderlineHover>{" "}
           ·{" "}
           <UnderlineHover asChild>
-            <a href="mailto:ip@huzhihui.com">{t("联系作者")}</a>
+            <a href="mailto:k@9o.pw">{t("联系作者")}</a>
           </UnderlineHover>
         </footer>
       </div>

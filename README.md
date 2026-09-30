@@ -21,15 +21,17 @@ IP 查询、网络诊断、浏览器检测与 AI 服务状态工具箱。
 
 **中文** · [English](README.en.md)
 
-[在线体验](https://ip.huzhihui.com/) · [GitHub](https://github.com/zhihui-hu/one-ip)
+[在线体验](https://ip.huzhihui.com/) · [GitHub](https://github.com/keaidang/one-ip)
+
+> 本仓库是 [zhihui-hu/one-ip](https://github.com/zhihui-hu/one-ip)（AGPL-3.0）的修改版，原项目与原作者信息在此保留。
 
 点击下方按钮，一键部署到 Cloudflare。
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fzhihui-hu%2Fone-ip)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fkeaidang%2Fone-ip)
 
 ## Cloudflare 部署教程
 
-1. [Fork 本项目](https://github.com/zhihui-hu/one-ip/fork)到你的 GitHub 账号。
+1. [Fork 本项目](https://github.com/keaidang/one-ip/fork)到你的 GitHub 账号。
 2. 登录 [Cloudflare 控制台](https://dash.cloudflare.com/)，进入 **Workers & Pages**，创建 Worker，选择导入 Git 仓库。
 3. 连接 GitHub，选择你的 `one-ip` Fork，生产分支填 `main`。
 4. 构建命令填 `pnpm build`，部署命令填 `pnpm deploy`。使用 Node.js 24 和 pnpm 10.32.1，根目录保持默认。
@@ -110,7 +112,7 @@ One IP 面向企业提供闭源商业版本及配套服务，适合网络与浏�
 - 定制开发、系统集成与 API 接入
 - 技术咨询、部署实施与持续支持
 
-如需了解商业版本、私有化部署或定制方案，请发送邮件至 [ip@huzhihui.com](mailto:ip@huzhihui.com)，并说明使用场景、部署方式和预计规模；项目详情可参阅 [GitHub 仓库](https://github.com/zhihui-hu/one-ip)。具体服务范围、数据权限与交付方式以双方约定为准。
+如需了解商业版本、私有化部署或定制方案，请发送邮件至 [k@9o.pw](mailto:k@9o.pw)，并说明使用场景、部署方式和预计规模；项目详情可参阅 [GitHub 仓库](https://github.com/keaidang/one-ip)。具体服务范围、数据权限与交付方式以双方约定为准。
 
 ## Fork 更新
 

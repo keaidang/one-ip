@@ -115,9 +115,9 @@ export default function PolicyPage({ page }: { page: "terms" | "privacy" }) {
         </p>
         <a
           className="text-sm text-primary hover:underline"
-          href="mailto:ip@huzhihui.com"
+          href="mailto:k@9o.pw"
         >
-          ip@huzhihui.com
+          k@9o.pw
         </a>
       </ToolCard>
     </div>
