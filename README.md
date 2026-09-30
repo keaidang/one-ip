@@ -21,7 +21,7 @@ IP 查询、网络诊断、浏览器检测与 AI 服务状态工具箱。
 
 **中文** · [English](README.en.md)
 
-[在线体验](https://ip.huzhihui.com/) · [GitHub](https://github.com/keaidang/one-ip)
+[在线体验](https://ip.9o.pw/) · [GitHub](https://github.com/keaidang/one-ip)
 
 > 本仓库是 [zhihui-hu/one-ip](https://github.com/zhihui-hu/one-ip)（AGPL-3.0）的修改版，原项目与原作者信息在此保留。
 
@@ -73,14 +73,14 @@ WebMCP 仍处于实验阶段。本地可在 Chrome 开启 `chrome://flags/#enabl
 
 ```bash
 # 当前请求的公网出口 IP，终端文本
-curl -fsS 'https://ip.huzhihui.com/api/ip/health?format=text'
+curl -fsS 'https://ip.9o.pw/api/ip/health?format=text'
 
 # 默认返回 JSON，便于脚本处理
-curl -fsS 'https://ip.huzhihui.com/api/ip/health'
+curl -fsS 'https://ip.9o.pw/api/ip/health'
 
 # 指定公网 IPv4 或 IPv6
-curl -fsS 'https://ip.huzhihui.com/api/ip/health?ip=1.1.1.1'
-curl -fsS 'https://ip.huzhihui.com/api/ip/health?ip=2606:4700:4700::1111&format=text'
+curl -fsS 'https://ip.9o.pw/api/ip/health?ip=1.1.1.1'
+curl -fsS 'https://ip.9o.pw/api/ip/health?ip=2606:4700:4700::1111&format=text'
 ```
 
 自部署时替换域名。本地开发使用 `http://127.0.0.1:8787`，必须指定 `ip`。省略 `ip` 时使用 Cloudflare 识别的本次请求出口；经过代理时会查询代理出口。

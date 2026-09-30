@@ -19,7 +19,7 @@ A toolbox for IP lookups, network diagnostics, browser checks and AI service sta
 
 [中文](README.md) · **English**
 
-[Live demo](https://ip.huzhihui.com/) · [GitHub](https://github.com/keaidang/one-ip)
+[Live demo](https://ip.9o.pw/) · [GitHub](https://github.com/keaidang/one-ip)
 
 > This repository is a modified version of [zhihui-hu/one-ip](https://github.com/zhihui-hu/one-ip) (AGPL-3.0). The original project and author info are preserved here.
 
@@ -33,12 +33,12 @@ After deploying this version, use `GET /api/ip/health` without an API key:
 
 ```bash
 # Current request's public egress IP, readable terminal output
-curl -fsS 'https://ip.huzhihui.com/api/ip/health?format=text'
+curl -fsS 'https://ip.9o.pw/api/ip/health?format=text'
 # JSON (default)
-curl -fsS 'https://ip.huzhihui.com/api/ip/health'
+curl -fsS 'https://ip.9o.pw/api/ip/health'
 # Explicit public IPv4 or IPv6
-curl -fsS 'https://ip.huzhihui.com/api/ip/health?ip=1.1.1.1'
-curl -fsS 'https://ip.huzhihui.com/api/ip/health?ip=2606:4700:4700::1111&format=text'
+curl -fsS 'https://ip.9o.pw/api/ip/health?ip=1.1.1.1'
+curl -fsS 'https://ip.9o.pw/api/ip/health?ip=2606:4700:4700::1111&format=text'
 ```
 
 Replace the domain for your deployment. Local development uses `http://127.0.0.1:8787` and requires `ip`. Without `ip`, the API uses the caller address identified by Cloudflare; a proxy changes that egress address.
