@@ -96,6 +96,30 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.mi.com.ico"
   },
   {
+    "cc": "cn",
+    "name": "NodeSeek",
+    "slug": "nodeseek",
+    "host": "www.nodeseek.com",
+    "url": "https://www.nodeseek.com/static/image/favicon/favicon-32x32.png",
+    "icon": "https://icons.duckduckgo.com/ip3/nodeseek.com.ico"
+  },
+  {
+    "cc": "cn",
+    "name": "V2EX",
+    "slug": "v2ex",
+    "host": "www.v2ex.com",
+    "url": "https://www.v2ex.com/favicon.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/v2ex.com.ico"
+  },
+  {
+    "cc": "cn",
+    "name": "Linux.do",
+    "slug": "linuxdo",
+    "host": "linux.do",
+    "url": "https://linux.do/",
+    "icon": "https://icons.duckduckgo.com/ip3/linux.do.ico"
+  },
+  {
     "cc": "jp",
     "name": "Sony",
     "slug": "sony",
