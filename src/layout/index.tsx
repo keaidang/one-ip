@@ -189,6 +189,16 @@ export function AppLayout() {
           ·{" "}
           <UnderlineHover asChild>
             <a href="mailto:k@9o.pw">{t("联系作者")}</a>
+          </UnderlineHover>{" "}
+          ·{" "}
+          <UnderlineHover asChild>
+            <a
+              href="https://beian.miit.gov.cn/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              鲁ICP备2025186072号
+            </a>
           </UnderlineHover>
         </footer>
       </div>
